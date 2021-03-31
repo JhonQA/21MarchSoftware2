@@ -14,10 +14,15 @@ public class Division {
 //		System.out.println("/  ");
 //		y= myObj.nextInt();
 		
-		double sum= x/y;
 		
+		if(x >y) {
+			System.out.println("This division cannot be performed");
+		}else {
+			double sum= x/y;
+			System.out.println("Answer is: " + sum);
+		}
 		
-		 System.out.println("Answer is: " + sum);
+		 
 		
 		return answer;
 	}

@@ -11,6 +11,23 @@ public class OperatorsExercise {
 		System.out.println("Biology Mark " + z);
 		System.out.println("Total Mark= " + totalMark);
 		System.out.println("Percentage= " + percentage + "%");
+		
+		if(percentage<60 ) {
+			System.out.println("You have failed");
+//		}else if ( x < 90|| y< 90 || z< 90){
+//			System.out.println("You have failed one of your modules");
+		}else if ( x < 90){
+			System.out.println("You have failed Physics");
+		}else if ( y< 90 ){
+			System.out.println("You have failed Chemistry");
+		}else if ( z< 90){
+			System.out.println("You have failed Biology");
+		}else {
+			System.out.println("You received: " + percentage + "%" + ", Congratulations you passed");
+		
+		}
+		
+		
 
 		return totalMark;
 

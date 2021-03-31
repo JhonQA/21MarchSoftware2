@@ -1,0 +1,19 @@
+package com.qa.results;
+
+public class FlowChartRecreation {
+
+	public static int recreation(int x) {
+
+	switch(x) {
+	case 1:
+	if(x>2000);
+	System.out.println("A");
+	break;
+	
+	case 2:
+	
+	}
+		return x;
+
+	}
+}
