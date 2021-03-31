@@ -1,0 +1,14 @@
+package com.qa.exercise1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Addition.addition(5, 5);
+		Subtraction.subtraction(0, 0);
+		Multiplication.multiplication(0, 0);
+		Division.division(0, 0);
+	}
+
+}

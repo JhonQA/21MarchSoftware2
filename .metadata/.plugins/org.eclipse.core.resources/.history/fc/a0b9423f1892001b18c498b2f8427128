@@ -1,0 +1,10 @@
+package com.qa.exercise1;
+
+public class Calculator {
+	public static void calculator(int fadd, int dadd) {
+		
+		System.out.println("Enter Calculation" + fadd + dadd);
+		
+	}
+
+}

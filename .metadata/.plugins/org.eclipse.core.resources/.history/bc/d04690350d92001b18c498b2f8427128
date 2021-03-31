@@ -1,0 +1,9 @@
+package com.qa.day1;
+
+public class Hello {
+
+		public static String h4() {
+			System.out.println("Hello");
+			return "Hello";
+		}
+}

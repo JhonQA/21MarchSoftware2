@@ -1,0 +1,18 @@
+package com.qa.exercise1;
+
+import java.util.Scanner;
+
+public class Addition {
+	public static void addition() {
+		Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+		
+		System.out.println("Enter Calculation: ");
+		
+		String mathResult = myObj.nextInt();
+		
+		 System.out.println("Answer is: " + mathResult);
+		
+		
+	}
+
+}

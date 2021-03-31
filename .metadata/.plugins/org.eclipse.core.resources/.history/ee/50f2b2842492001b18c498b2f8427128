@@ -1,0 +1,19 @@
+package com.qa.results;
+
+public class OperatorsExercise {
+	
+	public static int results(int x, int y, int z) {
+		int totalMark = (x + y +z);
+		int percentage = (x + y +z)*100/450;
+		
+		
+		System.out.println("Physics "+ x);
+		System.out.println("Chemistry" + y);
+		System.out.println("Biology " + z);
+		System.out.println("Total Mark =" + totalMark );
+		System.out.println("Percentage =" + percentage + "%");
+		
+		return totalMark;
+		
+	}
+}
