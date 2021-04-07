@@ -30,4 +30,13 @@ public class Motorcycle extends Vehicle{
 		System.out.println("I'm used for everyday life too, but more exciting ;)");
 	}
 
+
+
+
+	@Override
+	public float calculateBill() {
+		// TODO Auto-generated method stub
+		return 5*getTopSpeed();
+	}
+
 }

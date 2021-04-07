@@ -1,6 +1,6 @@
 package com.qa.garage;
 
-public class Vehicle {
+public abstract class Vehicle {
 
 	private String colour;
 	private boolean hasWindows;
@@ -19,7 +19,8 @@ public class Vehicle {
 		this.numberOfWheels = numberOfWheels;
 		this.topSpeed = topSpeed;
 	}
-
+	
+	public abstract float calculateBill();
 
 	public void noise() {
 		System.out.println("Vroom");

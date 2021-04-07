@@ -5,6 +5,7 @@ public class QuadBike extends Vehicle {
 	private boolean isItElectric;
 	private String size;
 	private String makeOfQuad;
+//	private int 
 
 
 	public QuadBike(String colour, boolean hasWindows, boolean hasMirrors, int numberOfWheels, int topSpeed,
@@ -24,20 +25,16 @@ public class QuadBike extends Vehicle {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 	public void quad() {
 		System.out.println("I'm used for cross country :)");
+	}
+
+
+
+	@Override
+	public float calculateBill() {
+		// TODO Auto-generated method stub
+		return 0;
 	}	
 	
 	
